@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">My <span className="blue-gradient_text font-semibold drop-shadow">Projects</span>
+      <h1 className="head-text">Mes <span className="blue-gradient_text font-semibold drop-shadow">Projets</span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>J'ai eu l'occasion de travailler sur différents projets mais voici ceux qui sont le plus représentatifs de mes compétences.

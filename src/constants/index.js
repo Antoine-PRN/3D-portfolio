@@ -205,7 +205,7 @@ export const projects = [
     theme: 'btn-back-pink',
     name: 'Festival fictif',
     type: 'Études',
-    description: "Lors d'un projet dans le carde de l'IUT, mon groupe et moi avons conçu de A à Z un site présentant un festival fictif permettant à des prestataires, des artistes, des clients et des administrateurs d'intervenir.",
+    description: "Lors d'un projet dans le cadre de l'IUT, mon groupe et moi avons conçu de A à Z un site présentant un festival fictif permettant à des prestataires, des artistes, des clients et des administrateurs d'intervenir.",
     link: 'https://github.com/MaxencePaulin/sae_s3s4',
   }
 ];
