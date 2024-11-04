@@ -1,7 +1,7 @@
 import { skills, experiences } from '../constants/index.js'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import CTA from '../components/cta.jsx';
+import CTA from '../components/CTA.jsx';
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <h1 className="head-text">Bonjour, je suis <span className="blue-gradient_text font-semibold drop-shadow">Antoine</span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Développeur Fullstack junior originaire de Dijon passionné par la création de site webs et d'applications.</p>
+        <p>Développeur Fullstack junior originaire de Dijon passionné par la création de sites web et d'applications ainsi que par la sécurité et le hacking.</p>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">Mes Compétences</h3>

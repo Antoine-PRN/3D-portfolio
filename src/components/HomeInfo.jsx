@@ -47,7 +47,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Je suis actuellement en recherche d'une alternance pour la rentrée 2024.
+          Vous avez besoin d'un site pour votre entreprise ou d'un développeur pour créer une nouvelle application ?
         </p>
 
         <Link to='/contact' className='neo-brutalism-white neo-btn'>

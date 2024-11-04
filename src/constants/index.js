@@ -1,4 +1,4 @@
-import { SSSsecurite, iut } from "../assets/images";
+import { SSSsecurite, cesi, iut, matane } from "../assets/images";
 import {
   audit,
   contact,
@@ -21,68 +21,18 @@ import {
   react,
   tailwindcss,
   vuejs,
+  rootme,
+  kali,
+  neurons,
+  threejs,
+  logo3s
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: java,
-    name: "Java",
-    type: "Backend",
-  },
-  {
     imageUrl: javascript,
     name: "JavaScript",
     type: "Frontend",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mariadb,
-    name: "Mariadb",
-    type: "Database",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: postgresql,
-    name: "Postgresql",
-    type: "Database",
   },
   {
     imageUrl: python,
@@ -95,13 +45,84 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
+    imageUrl: rootme,
+    name: "Rootme",
+    type: "Pentest",
+  },
+  {
+    imageUrl: kali,
+    name: "Kali Linux",
+    type: "Environment",
+  },
+
+  {
+    imageUrl: threejs,
+    name: "ThreeJS",
     type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: mariadb,
+    name: "Mariadb",
+    type: "Database",
   },
   {
     imageUrl: vuejs,
     name: "VueJS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: java,
+    name: "Java",
+    type: "Backend",
+  },
+  {
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: postgresql,
+    name: "Postgresql",
+    type: "Database",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
     type: "Frontend",
   },
 ];
@@ -109,33 +130,61 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    title: "Stage Développeur Full Stack",
+    title: "Contrat en alternance",
     company_name: "3S Sécurité",
     icon: SSSsecurite,
-    iconBg: "#1F7DC7",
-    date: "Janvier 2024 - Présent",
+    iconBg: "#192457",
+    date: "Septembre 2024 - Présent",
     points: [
-      "Développement d'outils de pentest (détection de failles XSS).",
-      "Collaboration avec un deuxième stagiaire et répartition des tâches.",
-      "Suivi et amélioration d'une application de supervision.",
+      "Développement du site web de l'entreprise en VueJS",
+      "Développement d'une solution de supervision.",
+      "Superviser différents équipements (pare-feux, switch, etc).",
+      "Participation à des tests de penetration chez des clients ou sur leurs plateformes web.",
     ],
   },
   {
     id: 2,
+    title: "Mastère MAALSI au CESI de Dijon",
+    company_name: "CESI",
+    icon: cesi,
+    iconBg: "#fbe216",
+    date: "Septembre 2024 - Présent",
+    points: [
+      "Réalisation de projets en équipe",
+      "Superviser et assurer le développement des applications logicielles",
+      "Concevoir l’architecture logicielle du SI",
+      "Superviser le portefeuille projets de la DSI et sa mise en œuvre",
+    ],
+  },
+  {
+    id: 3,
     title: "Stage Développeur Full Stack",
     company_name: "3S Sécurité",
     icon: SSSsecurite,
-    iconBg: "#323232",
+    iconBg: "#192457",
+    date: "Janvier 2024 - Mai 2024",
+    points: [
+      "Développement d'une solution de supervision.",
+      "Entrainement au pentest/hacking éthique via la platerforme Rootme",
+      "Collaboration avec l'équipe de développement",
+    ],
+  },
+  {
+    id: 4,
+    title: "Stage Développeur Full Stack",
+    company_name: "3S Sécurité",
+    icon: SSSsecurite,
+    iconBg: "#192457",
     date: "Avril 2023 - Juin 2023",
     points: [
       "Apprentissage de nouvelle technologies telles que React et Mariadb.",
-      "Collaboration avec un autre stagiaire et le maître de stage pour mener à bien le projet.",
+      "Collaboration avec l'équipe de développement et de sécurité pour mener à bien le projet.",
       "Implementation de la partie design et de la partie fonctionnelle de l'application.",
       "Présentations de l'avancée de l'application aux reste de l'entreprise.",
     ],
   },
   {
-    id: 3,
+    id: 5,
     company_name: "IUT de Belfort",
     icon: iut,
     title: "BUT Informatique à l'IUT de Belfort",
@@ -146,6 +195,19 @@ export const experiences = [
       "Mise en oeuvre des technologies apprises en cours à travers différents projets de groupe.",
       "Collaboration avec diverses personnes à travers des projets de groupe.",
       "Présentations des différents projets face à des professeurs de l'IUT.",
+    ],
+  },
+  {
+    id: 6,
+    company_name: "Cégep de Matane",
+    icon: matane,
+    title: "DEC (Diplôme d'études collégiales) Informatique au Cégep de Matane, Québec",
+    iconBg: "#96BEF4",
+    date: "Septembre 2021 - Juin 2022",
+    points: [
+      "Découvertes des bases du développement web et du développement d'algorithmes",
+      "Suivi de la formation Cisco CCNA 1 Routing and Switching",
+      "Initialisation à la programmation orientée objet en C#",
     ],
   },
   // {
@@ -178,19 +240,34 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: logo3s,
+    theme: 'btn-back-blue',
+    name: 'Site vitrine de l\'entreprise',
+    type: 'Professionnel',
+    description: "Développement du site vitrine de l\'entreprise à partir de maquette fournies par un designer. Les technologies utilisées sont VueJS, TypeScript ainsi que la bibliothèque Vuetify.",
+    link: 'https://www.3s-securite.eu',
+  },
+  {
+    iconUrl: neurons,
+    theme: 'btn-back-orange',
+    name: 'Solution de supervision',
+    type: 'Professionnel',
+    description: "Développement d'une application de supervision permettant de superviser les équipements du SI (système d'informations) d'une entreprise. Les technologies utilisées sont ReactJS, Python Flask ainsi que MariaDB",
+  },
+  {
     iconUrl: plane,
     theme: 'btn-back-green',
     name: 'Portfolio en ligne',
     type: 'Personnel',
-    description: "J'ai conçu ce portfolio pour mettre en avant mes compétences et connaissances à travers un exemple concret.",
-    link: 'https://github.com/adrianhajdin/social_media_app',
+    description: "Développement d'un portfolio utilisant le moteur 3D de javascript permettant de mettre en avant mes compétences et connaissances à travers un exemple concret.",
+    link: 'https://github.com/Antoine-PRN/3D-portfolio',
   },
   {
     iconUrl: audit,
     theme: 'btn-back-blue',
-    name: "Outil d'audits simplifié",
+    name: "Outil de réalisation d'audits de sécurité",
     type: 'Professionnel',
-    description: "J'ai aidé à développer une application ayant pour but d'aider des experts comptables à réaliser des audits dans des entreprises sur la sécurité de leurs données.",
+    description: "J'ai développé une application ayant pour but d'aider des experts comptables à réaliser des audits dans des entreprises sur la sécurité de leurs données et sur leur SI. Les technologies utilisées sont ReactJS, Python Flask ainsi que MariaDB",
   },
   {
     iconUrl: gaspump,

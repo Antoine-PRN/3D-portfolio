@@ -22,6 +22,11 @@ import audit from './audit.svg'
 import gaspump from './gaspump.svg'
 import music from './music.svg'
 import plane from './plane.svg'
+import rootme from './rootme.svg'
+import kali from './kali.svg'
+import neurons from './neurons.svg'
+import threejs from './threejs.svg'
+import logo3s from './logo-3s.svg'
 
 export {
     audit,
@@ -47,5 +52,10 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    rootme,
+    kali,
+    neurons,
+    threejs,
+    logo3s,
 }

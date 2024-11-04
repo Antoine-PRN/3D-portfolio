@@ -1,10 +1,12 @@
 import { Canvas } from '@react-three/fiber';
 import { Suspense, useState, useEffect, useRef } from 'react';
 import Loader from '../components/Loader';
-import Island from '../models/island';
+import Island from '../models/Island';
+import Island2 from '../models/Island2';
 import Sky from '../models/Sky';
 import Bird from '../models/bird';
 import Plane from '../models/Plane';
+import Cartoon_plane from '../models/Cartoon_plane';
 import HomeInfo from '../components/HomeInfo';
 import magical_fantasy from '../assets/magical_fantasy.mp3';
 import { soundoff, soundon } from '../assets/icons';
@@ -30,11 +32,11 @@ const Home = () => {
 
   const adjustIslandToScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [-5.5, -7.5, -115];
-    let rotation = [0.15, -0.5, 0.01];
+    let screenPosition = [-5.5, -14.5, -90];
+    let rotation = [0.15, 0, 0.01];
 
     if (window.innerWidth <= 768) {
-      screenScale = [0.9, 0.9, 0.9];
+      screenScale = [0.7, 0.7, 0.7];
     } else {
       screenScale = [1, 1, 1];
     }
@@ -46,10 +48,14 @@ const Home = () => {
     let screenScale, screenPosition;
 
     if (window.innerWidth <= 768) {
-      screenScale = [0.002, 0.002, 0.002];
+      // Position for plane version 1
+      // screenScale = [0.0015, 0.0015, 0.0015];
+      screenScale = [0.15, 0.15, 0.15];
       screenPosition = [0, -1.5, 0];
     } else {
-      screenScale = [0.003, 0.003, 0.003];
+      // Position for plane version 1
+      // screenScale = [0.003, 0.003, 0.003];
+      screenScale = [0.23, 0.23, 0.23];
       screenPosition = [0, -4, -4];
     }
 
@@ -74,8 +80,8 @@ const Home = () => {
           <hemisphereLight skyColor={'#b1e1ff'} groundColor={'#000000'} intensity={1} />
 
           <Bird />
-          <Sky isRotating={isRotating} />
-          <Island
+          <Sky isRotating={true} />
+          <Island2
             position={islandPosition}
             scale={islandScale}
             rotation={islandRotation}
@@ -83,11 +89,11 @@ const Home = () => {
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
           />
-          <Plane
+          <Cartoon_plane
             position={planePosition}
             scale={planeScale}
             isRotating={isRotating}
-            rotation={[1.35, 9.4, 0]}
+            rotation={[0.5, 8, -0.2]}
           />
         </Suspense>
       </Canvas>
