@@ -21,6 +21,8 @@ import {
   react,
   tailwindcss,
   vuejs,
+  nuxt,
+  typescript,
   rootme,
   kali,
   neurons,
@@ -45,6 +47,26 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: vuejs,
+    name: "VueJS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "Typescript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: nuxt,
+    name: "Nuxt js",
+    type: "Backend",
+  },
+  {
     imageUrl: rootme,
     name: "Rootme",
     type: "Pentest",
@@ -54,16 +76,10 @@ export const skills = [
     name: "Kali Linux",
     type: "Environment",
   },
-
   {
     imageUrl: threejs,
     name: "ThreeJS",
     type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
   },
   {
     imageUrl: github,
@@ -84,11 +100,6 @@ export const skills = [
     imageUrl: mariadb,
     name: "Mariadb",
     type: "Database",
-  },
-  {
-    imageUrl: vuejs,
-    name: "VueJS",
-    type: "Frontend",
   },
   {
     imageUrl: html,

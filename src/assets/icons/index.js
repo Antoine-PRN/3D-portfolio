@@ -18,6 +18,8 @@ import java from './java.svg'
 import mariadb from './mariadb.svg'
 import postgresql from './postgresql.svg'
 import vuejs from './vuejs.svg'
+import nuxt from './nuxt.svg'
+import typescript from './typescript.svg'
 import audit from './audit.svg'
 import gaspump from './gaspump.svg'
 import music from './music.svg'
@@ -49,6 +51,8 @@ export {
     mariadb,
     postgresql,
     vuejs,
+    nuxt,
+    typescript,
     arrow,
     contact,
     soundon,
