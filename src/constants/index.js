@@ -1,4 +1,4 @@
-import { SSSsecurite, cesi, iut, matane } from "../assets/images";
+import { SSSsecurite, cesi, iut, matane, threejsJourney, tools } from "../assets/images";
 import {
   audit,
   contact,
@@ -221,19 +221,6 @@ export const experiences = [
       "Initialisation à la programmation orientée objet en C#",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#a2d2ff",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 export const socialLinks = [
@@ -250,6 +237,22 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: tools,
+    theme: 'btn-back-black',
+    name: 'Création d\'un outil de détection de vulnérabilités',
+    type: 'Professionnel',
+    description: "Développement d'un outil de détection de vulnérabilité sur mesure sur des plateforme web. L'outil à été développé en Python et utilise des librairies telles que Selenium.",
+  },
+  {
+    iconUrl: threejsJourney,
+    theme: 'btn-back-purple',
+    background: 'linear-gradient(135deg, #6f5cf1 -20%, #b2a7fa 120%)',
+    name: 'Formation ThreeJS Journey',
+    type: 'Professionnel / Personnel',
+    description: "Formation en ligne sur le moteur 3D de javascript (Three.js) permettant de créer des scènes 3D interactives et de les intégrer dans des sites web.",
+    link: 'https://threejs-journey.com/',
+  },
   {
     iconUrl: logo3s,
     theme: 'btn-back-blue',
@@ -270,15 +273,15 @@ export const projects = [
     theme: 'btn-back-green',
     name: 'Portfolio en ligne',
     type: 'Personnel',
-    description: "Développement d'un portfolio utilisant le moteur 3D de javascript permettant de mettre en avant mes compétences et connaissances à travers un exemple concret.",
-    link: 'https://github.com/Antoine-PRN/3D-portfolio',
+    description: "Développement d'un portfolio utilisant le moteur 3D de javascript (Three.js) permettant de mettre en avant mes compétences et connaissances à travers un exemple concret.",
+    link: 'https://antoine-perrin.me',
   },
   {
     iconUrl: audit,
     theme: 'btn-back-blue',
-    name: "Outil de réalisation d'audits de sécurité",
+    name: "Outil de réalisation d'audits de sécurité bossté par l'intellignece artificielle",
     type: 'Professionnel',
-    description: "J'ai développé une application ayant pour but d'aider des experts comptables à réaliser des audits dans des entreprises sur la sécurité de leurs données et sur leur SI. Les technologies utilisées sont ReactJS, Python Flask ainsi que MariaDB",
+    description: "J'ai développé une application ayant pour but d'aider des experts comptables à réaliser des audits dans des entreprises sur la sécurité de leurs données et sur leur SI. Les technologies utilisées sont ReactJS, Python Flask ainsi que MariaDB. Une intellignece artificielle hébergée on-premise à été ajoutée pour proposer des recommandations suite à l'audit réalisé",
   },
   {
     iconUrl: gaspump,
@@ -286,7 +289,7 @@ export const projects = [
     name: 'FuelFinder',
     type: 'Personnel',
     description: "J'ai créé une application permettant de comparer les prix des stations essences de toute la France pour trouver la moins chère proche de chez soi ",
-    link: 'https://github.com/Antoine-PRN/FuelFinder.git',
+    link: 'https://fuel-finder.antoine-perrin.me',
   },
   {
     iconUrl: music,
@@ -294,6 +297,6 @@ export const projects = [
     name: 'Festival fictif',
     type: 'Études',
     description: "Lors d'un projet dans le cadre de l'IUT, mon groupe et moi avons conçu de A à Z un site présentant un festival fictif permettant à des prestataires, des artistes, des clients et des administrateurs d'intervenir.",
-    link: 'https://github.com/MaxencePaulin/sae_s3s4',
+    // link: 'https://github.com/MaxencePaulin/sae_s3s4',
   }
 ];

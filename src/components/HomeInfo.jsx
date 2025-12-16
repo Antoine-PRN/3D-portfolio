@@ -1,28 +1,39 @@
 import { Link } from "react-router-dom";
 
-import { arrow } from "../assets/icons";
+import { arrow, arrowWhite } from "../assets/icons";
 
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
-      <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
+      <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
         Bonjour, je suis
-        <span className='font-semibold mx-2 text-white'>Antoine👋</span>
+        <span className="font-semibold mx-2 text-white">Antoine👋</span>
         <br />
         Un développeur Fullstack junior originaire de Dijon.
+        <em className="block mt-4 text-sm">
+          <span className="inline-flex items-center">
+            Faites tourner pour en savoir plus{" "}
+            <img
+              src={arrowWhite}
+              alt="arrow"
+              className="w-4 h-4 object-contain ml-2"
+            />
+          </span>
+        </em>
       </h1>
     );
 
   if (currentStage === 2) {
     return (
-      <div className='info-box'>
-        <p className='font-medium sm:text-xl text-center'>
-          J'ai acquéri de nombreuses compétences lors de mes stages et de mes études.
+      <div className="info-box">
+        <p className="font-medium sm:text-xl text-center">
+          J'ai acquéri de nombreuses compétences lors de mes stages et de mes
+          études.
         </p>
 
-        <Link to='/about' className='neo-brutalism-white neo-btn'>
+        <Link to="/about" className="neo-brutalism-white neo-btn">
           En savoir plus
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -30,14 +41,15 @@ const HomeInfo = ({ currentStage }) => {
 
   if (currentStage === 3) {
     return (
-      <div className='info-box'>
-        <p className='font-medium text-center sm:text-xl'>
-          J'ai pu mener a bien plusieurs projets nécessitant différentes compétences.
+      <div className="info-box">
+        <p className="font-medium text-center sm:text-xl">
+          J'ai pu mener a bien plusieurs projets nécessitant différentes
+          compétences.
         </p>
 
-        <Link to='/projects' className='neo-brutalism-white neo-btn'>
+        <Link to="/projects" className="neo-brutalism-white neo-btn">
           Visitez mon portfolio
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -45,14 +57,15 @@ const HomeInfo = ({ currentStage }) => {
 
   if (currentStage === 4) {
     return (
-      <div className='info-box'>
-        <p className='font-medium sm:text-xl text-center'>
-          Vous avez besoin d'un site pour votre entreprise ou d'un développeur pour créer une nouvelle application ?
+      <div className="info-box">
+        <p className="font-medium sm:text-xl text-center">
+          Vous avez besoin d'un site pour votre entreprise ou d'un développeur
+          pour créer une nouvelle application ?
         </p>
 
-        <Link to='/contact' className='neo-brutalism-white neo-btn'>
+        <Link to="/contact" className="neo-brutalism-white neo-btn">
           Parlons-en
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );

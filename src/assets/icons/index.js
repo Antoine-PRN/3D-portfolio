@@ -10,6 +10,7 @@ import nodejs from './nodejs.svg'
 import react from './react.svg'
 import tailwindcss from './tailwindcss.svg'
 import arrow from './arrow.svg'
+import arrowWhite from './arrow-white.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
@@ -54,6 +55,7 @@ export {
     nuxt,
     typescript,
     arrow,
+    arrowWhite,
     contact,
     soundon,
     soundoff,
