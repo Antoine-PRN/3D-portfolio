@@ -4,7 +4,7 @@ import Loader from '../components/Loader';
 import Island from '../models/Island';
 import Island2 from '../models/Island2';
 import Sky from '../models/Sky';
-import Bird from '../models/bird';
+import Bird from '../models/Bird';
 import Plane from '../models/Plane';
 import Cartoon_plane from '../models/Cartoon_plane';
 import HomeInfo from '../components/HomeInfo';
