@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from "./App";
 import './index.css'
-import { MatomoProvider, createInstance } from '@matomo-org/tracker-react'
+import { MatomoProvider, createInstance } from '@datapunt/matomo-tracker-react'
 
 const instance = createInstance({
     urlBase: 'https://matomo.antoine-perrin.fr',
